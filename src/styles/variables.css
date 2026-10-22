@@ -1,0 +1,73 @@
+:root {
+  /* Paleta cromática principal */
+  --color-bg-primary: #FFFFFF;
+  --color-bg-secondary: #F8F8FA;
+  --color-bg-tertiary: #F1F1F5;
+  --color-bg-accent-subtle: #FFF5F5;
+  --color-bg-accent-soft: #FDE8E8;
+
+  /* Colores de acento e interacción */
+  --color-accent-light: #F7B8B8;
+  --color-accent-border: #F3A4A4;
+  --color-primary: #E66A6A;
+  --color-primary-hover: #D95353;
+  --color-primary-active: #C44343;
+  --color-primary-text: #FFFFFF;
+
+  /* Escala de grises y textos */
+  --color-text-primary: #292929;
+  --color-text-secondary: #737373;
+  --color-text-muted: #8E8E93;
+  --color-text-inverted: #FFFFFF;
+
+  /* Bordes y divisores */
+  --color-border: #EAEAEA;
+  --color-border-subtle: #F0F0F2;
+  --color-border-focus: #E66A6A;
+
+  /* Estados y semántica */
+  --color-success-bg: #EBF8EE;
+  --color-success-text: #22863A;
+  --color-success-border: #C3E6CB;
+
+  --color-warning-bg: #FFF8E6;
+  --color-warning-text: #B07D05;
+  --color-warning-border: #FFEBAA;
+
+  --color-danger-bg: #FEEFEF;
+  --color-danger-text: #D93838;
+  --color-danger-border: #F7B8B8;
+
+  --color-info-bg: #EEF6FF;
+  --color-info-text: #0969DA;
+  --color-info-border: #C8E1FF;
+
+  /* Tipografía */
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: 'JetBrains Mono', SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  /* Sombras suaves y elegantes */
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.02);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.03);
+  --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.07), 0 4px 10px rgba(0, 0, 0, 0.03);
+  --shadow-dropdown: 0 8px 24px rgba(41, 41, 41, 0.08);
+
+  /* Radios de borde */
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+  --radius-full: 9999px;
+
+  /* Transiciones */
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.22s ease;
+  --transition-slow: 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Layout */
+  --sidebar-width: 260px;
+  --sidebar-collapsed-width: 72px;
+  --topbar-height: 70px;
+}

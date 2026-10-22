@@ -1,0 +1,5 @@
+/* App root specific styles if needed */
+.app-container {
+  min-height: 100vh;
+  width: 100%;
+}
